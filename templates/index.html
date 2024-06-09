@@ -8,19 +8,26 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
         }
-        .message {
+        .message, .embed {
             font-size: 2em;
             color: #333;
+            margin: 10px 0;
+        }
+        .embed {
+            font-size: 1.5em;
+            color: red;
         }
     </style>
 </head>
 <body>
     <div class="message">Hi Air, you said I couldn't do it yeah?</div>
+    <div class="embed">Fuck you Air, served by Caiden</div>
 </body>
 </html>
